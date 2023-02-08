@@ -1,0 +1,20 @@
+
+{
+  "player": [
+    {
+      "name": "Warrior",
+      "health": 100,
+      "man": 20
+    },
+    {
+      "name": "Wizard",
+      "health": 40,
+      "man": 30
+    },
+    {
+      "name": "cleric",
+      "health": 80,
+      "man": 40
+    }
+  ]
+}
