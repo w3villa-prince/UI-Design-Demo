@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Vector3LerpTesting : MonoBehaviour
 {
-    public Vector3 StartPoint;// = new Vector3(-10, -2, 0);
-    public Vector3 EndPoint = new Vector3(10, 10, 0);
-    public float speed = 1.0f;
+    public Vector3 StartPoint = new Vector3(-8, -5, 0);
+    public Vector3 EndPoint = new Vector3(8, 5, 0);
+    // public float speed = 1.0f;
 
     public MeshRenderer myMeshRenderer;
 
