@@ -54,6 +54,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7047416046393119404}
     m_Modifications:
+    - target: {fileID: 207469048538781997, guid: 594309adad61b9c43a183ccba0901343, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
     - target: {fileID: 207469048912991053, guid: 594309adad61b9c43a183ccba0901343, type: 3}
       propertyPath: m_Name
       value: Card1
@@ -116,7 +120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 207469049131781177, guid: 594309adad61b9c43a183ccba0901343, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.079
+      value: -0.016
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 594309adad61b9c43a183ccba0901343, type: 3}

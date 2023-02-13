@@ -556,7 +556,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -630,20 +629,6 @@ Transform:
   m_Father: {fileID: 1426261725}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cb5e225d62da6c4189b3658e0f4f3c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 50
-  playerBody: {fileID: 1426261725}
 --- !u!1 &591135458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1009,7 @@ GameObject:
   - component: {fileID: 1426261725}
   - component: {fileID: 1426261724}
   - component: {fileID: 1426261726}
+  - component: {fileID: 1426261727}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1057,7 +1043,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426261723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.085, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1080,6 +1066,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1426261724}
   speed: 40
+--- !u!114 &1426261727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426261723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb5e225d62da6c4189b3658e0f4f3c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  playerBody: {fileID: 519420032}
 --- !u!1 &1440962775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440962775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardParentPrefab: {fileID: 3322049083153771704, guid: ce12fe9511228494aafffb9dc147196e, type: 3}
   OneCardPrefabs: {fileID: 7047416046393119405, guid: 4f5a5e6f377d8f74696c0defbf5ef2c2, type: 3}
-  postion: {x: -3, y: 0, z: 0}
+  postion: {x: 0, y: 0, z: 0}
   cardsGameObject: []
   UpdateZpostion: {x: 0, y: 0, z: 0}
 --- !u!4 &1885230863
