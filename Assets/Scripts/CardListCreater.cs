@@ -12,12 +12,12 @@ public class CardListCreater : MonoBehaviour
         PlayerCardUpdate = GetComponent<PlayerCardUpdate>();
     }
 
-    public void CreateCardPrfabs(string name, string age, string about, string description, string link)
+    public void CreateCardPrfabs(string name, string age, string about, string description, string link, string weblink)
     {
         GameObject textChanger = Instantiate(gameObjectPrefabs, postion, Quaternion.identity);
         Debug.Log("Prefabs Call COrrectly with position Change ...");
         // PlayerCardUpdate.CardUpdate(name, age, about, description, link);
-        textChanger.GetComponent<PlayerCardUpdate>().CardUpdate(name, age, about, description, link);
+        textChanger.GetComponent<PlayerCardUpdate>().CardUpdate(name, age, about, description, link, weblink);
         Debug.Log("Player card Update done.....");
 
         postion = postion + new Vector3(8, 0, 0);

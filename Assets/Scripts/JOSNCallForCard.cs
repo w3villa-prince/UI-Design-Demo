@@ -15,6 +15,7 @@ public class JOSNCallForCard : MonoBehaviour
         public string about;
         public string description;
         public string link;
+        public string weblink;
     }
 
     [System.Serializable]
@@ -37,7 +38,7 @@ public class JOSNCallForCard : MonoBehaviour
             Debug.Log(child.age);
             Debug.Log(child.about);
             Debug.Log(child.link);
-            CardListCreater.CreateCardPrfabs(child.name, child.age, child.about, child.description, child.link);
+            CardListCreater.CreateCardPrfabs(child.name, child.age, child.about, child.description, child.link, child.weblink);
             //  PlayerCardUpdate.CardUpdate(child.name, child.age, child.about, child.description, child.link);
         }
     }

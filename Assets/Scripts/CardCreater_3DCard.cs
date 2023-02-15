@@ -31,7 +31,7 @@ public class CardCreater_3DCard : MonoBehaviour
         Debug.Log("Player card Update done.....");
 
         // postion = postion + new Vector3(1, 3, 1);
-        postion = postion + new Vector3(0, 0, 6);
+        postion = postion + new Vector3(6, 0, 0);///Vector3(0,0,6);
         UpdateZpostion = postion;
     }
 
@@ -58,9 +58,9 @@ public class CardCreater_3DCard : MonoBehaviour
 
     private int count = 0;
 
-    public void CardListTextUpdate(string name, string age, string about, string description, string link)
+    public void CardListTextUpdate(string name, string age, string about, string description, string link, string weblink)
     {
-        cardsGameObject[count].GetComponent<PlayerCardUpdate>().CardUpdate(name, age, about, description, link);
+        cardsGameObject[count].GetComponent<PlayerCardUpdate>().CardUpdate(name, age, about, description, link, weblink);
         count++;
     }
 
