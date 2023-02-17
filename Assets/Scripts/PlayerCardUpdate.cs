@@ -12,24 +12,35 @@ public class PlayerCardUpdate : MonoBehaviour
     public TextMeshProUGUI Description;
     public RawImage PlayerImage;
     public Texture2D texture;
-    public TextMeshProUGUI ActionBtn;
+    public ActonBottonClass ActionBtn;
+
+
+
+
 
     //  public  ImageConversion image;
 
     // Start is called before the first frame update
     private void Start()
     {
+
+
         //CardUpdate("XYZ", "19", "Gamer", " hello word ", "https://www.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg");
     }
 
     public void CardUpdate(string name, string age, string about, string description, string link, string weblink)
     {
+
+
         Name.text = name;
         Age.text = age;
         About.text = about;
         Description.text = description;
 
-        ActionBtn.text = weblink;
+        // = weblink;
+
+        ActionBtn._link = weblink;
+        ActionBtn.buttonText.text = weblink;
         //layerImage.color = Color.red;
         StartCoroutine(ImageDownloader(link));
 

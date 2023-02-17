@@ -58,11 +58,13 @@ public class JOSNCall_3DCard : MonoBehaviour
         foreach (var child in myCard.card)
 
         {
-            Debug.Log(child.name);
-            Debug.Log(child.age);
-            Debug.Log(child.about);
-            Debug.Log(child.link);
-            Debug.Log(child.weblink);
+            //  Debug.Log(child.name);
+            // Debug.Log(child.age);
+            // Debug.Log(child.about);
+            // Debug.Log(child.link);
+            // Debug.Log(child.weblink);
+
+            Debug.Log("JOSN Read Done.....");
             CardListCreater.CardListTextUpdate(child.name, child.age, child.about, child.description, child.link, child.weblink);
 
             // CardListCreater.CreateCardPrfabs(child.name, child.age, child.about, child.description, child.link);
