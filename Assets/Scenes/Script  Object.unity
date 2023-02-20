@@ -1293,8 +1293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _layerMask:
     serializedVersion: 2
-    m_Bits: 246
-  _MainMenu: {fileID: 1885230865}
+    m_Bits: 0
+  _hintsImage: {fileID: 866993244}
   rayLength: 10
 --- !u!1 &1189911934
 GameObject:
