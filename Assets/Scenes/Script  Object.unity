@@ -1293,7 +1293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 246
   _hintsImage: {fileID: 866993244}
   rayLength: 10
 --- !u!1 &1189911934
