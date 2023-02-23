@@ -1721,7 +1721,6 @@ GameObject:
   - component: {fileID: 1885230863}
   - component: {fileID: 1885230862}
   - component: {fileID: 1885230864}
-  - component: {fileID: 1885230865}
   m_Layer: 0
   m_Name: ObjectCall
   m_TagString: Ground
@@ -1773,23 +1772,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 412f111211a655f4aa47b678bf1e8ebc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textJOSN: {fileID: 4900000, guid: 858d2937bad81c541837023bc0435f66, type: 3}
+  textJOSN: {fileID: 4900000, guid: 8de2003c8668c4a44bc635d33025b14d, type: 3}
   myCard:
     card: []
---- !u!114 &1885230865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885230861}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ebcf203fe1771a48987875375befc4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _link: 
-  buttonText: {fileID: 0}
 --- !u!1 &1993399634
 GameObject:
   m_ObjectHideFlags: 0
