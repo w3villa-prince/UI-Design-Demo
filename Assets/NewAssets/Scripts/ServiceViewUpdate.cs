@@ -8,7 +8,7 @@ public class ServiceViewUpdate : MonoBehaviour
 {
     private void Start()
     {
-        //  ServiceViewDataUpdatebyJOSN("W3villa ", " hello anyOne are Reday", "https://jsonformatter.org/", "https://jsonformatter.org/");
+        // UpdateServiceSectionItemData("W3villa ", " hello anyOne are Reday", "https://jsonformatter.org/", "https://jsonformatter.org/");
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class ServiceViewUpdate : MonoBehaviour
     public ActonBottonClass ActionButton;
     public Texture2D texture;
 
-    public void ServiceViewDataUpdatebyJOSN(string name, string description, string imageLink, string actionLink)
+    public void UpdateServiceSectionItemData(string name, string description, string imageLink, string actionLink)
     {
         Name.text = name;
         Description.text = description;
