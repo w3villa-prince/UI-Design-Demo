@@ -1,12 +1,8 @@
 using UnityEngine;
 
-public class JOSNDataReading : MonoBehaviour
+public class JOSNDataReadingWithServiceName : MonoBehaviour
 {
     public TextAsset textJOSN;
-
-    // private ServiceView _serviceViewList;
-    // public GameObject _subServicesViewList;
-    //  public GameObject _subServicesViewList
     private ServiceManager _ServiceManagerList;
 
     [System.Serializable]
@@ -20,21 +16,22 @@ public class JOSNDataReading : MonoBehaviour
     [System.Serializable]
     public class Services
     {
+        public string serviceName;
         public SubService[] subService;
     }
 
     [System.Serializable]
-    public class SubServiceList
+    public class ServiceList
     {
         public Services[] services;
     }
 
-    public SubServiceList serivceList = new SubServiceList();
+    public ServiceList serivceList = new ServiceList();
 
     // Start is called before the first frame update
     private void Start()
     {
-        serivceList = JsonUtility.FromJson<SubServiceList>(textJOSN.text);
+        serivceList = JsonUtility.FromJson<ServiceList>(textJOSN.text);
         _ServiceManagerList = GetComponent<ServiceManager>();
 
         int count = serivceList.services.Length;
@@ -52,7 +49,7 @@ public class JOSNDataReading : MonoBehaviour
         {
             // i++;
             //Debug.Log("Sub service " + i);
-            _ServiceManagerList.CreateService(position);
+            _ServiceManagerList.CreateService(position, subserivce.serviceName);
 
             //_subServicesViewList.GetComponent<SubServicesView>().cr;
 
@@ -66,12 +63,12 @@ public class JOSNDataReading : MonoBehaviour
 
                 if (i % 2 != 0)
                 {
-                    postionOfSubService += new Vector3(8, 0, 0);
+                    postionOfSubService += new Vector3(12, 0, 0);
                     rotateValue = 45;
                 }
                 else
                 {
-                    postionOfSubService += new Vector3(-8, 0, 4);
+                    postionOfSubService += new Vector3(-12, 0, 4);
                     rotateValue = 135;
                 }
 

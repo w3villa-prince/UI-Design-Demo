@@ -1,162 +1,142 @@
 {
   "services": [
     {
-      "blockChain": [
-        [
-          {
-            "name": " BlockChain",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Cyrpto",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " NFT",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Defi",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " ICO",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Peatio",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          }
-        ],
+      "serviceName": "BlockChain",
+      "subService": [
         {
-          "serviceName": "BlockChain"
+          "name": " BlockChain",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Cyrpto",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " NFT",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Defi",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " ICO",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Peatio",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
         }
       ]
     },
     {
-      "ecommerce": [
-        [
-          {
-            "name": " Ecommerce",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Spree Commerce",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Magento",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Shopfy",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          }
-        ],
+      "serviceName": "Ecommerce",
+      "subService": [
         {
-          "serviceName": "Ecommerce"
+          "name": " Ecommerce",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Spree Commerce",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Magento",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Shopfy",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
         }
       ]
     },
     {
-      "application": [
-        [
-          {
-            "name": " Web Delopment",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Mobile App Delopment",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Desktop App Delopment ",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Product App Delopment ",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Cross Platform",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          }
-        ],
+      "serviceName": "Application",
+      "subService": [
         {
-          "serviceName": "Application"
+          "name": " Web Delopment",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Mobile App Delopment",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Desktop App Delopment ",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Product App Delopment ",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Cross Platform",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
         }
       ]
     },
     {
-      "trending": [
-        [
-          {
-            "name": "Game Delopment ",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": " Chatbot",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": "AI",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": "Netsuite",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          }
-        ],
+      "serviceName": "Trending",
+      "subService": [
         {
-          "serviceName": "Trending"
+          "name": "Game Delopment ",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": " Chatbot",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": "AI",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": "Netsuite",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
         }
       ]
     },
     {
-      "enterprize": [
-        [
-          {
-            "name": " Salesforce",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": "DevOps",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": "Redmine",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          },
-          {
-            "name": "Custom Software",
-            "imageLink": "https://www.w3villa.com/peatio-services",
-            "actionLink": "https://www.w3villa.com/peatio-services"
-          }
-        ],
+      "serviceName": "Ecommerce",
+      "subService": [
         {
-          "serviceName": "Ecommerce"
+          "name": " Salesforce",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": "DevOps",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": "Redmine",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
+        },
+        {
+          "name": "Custom Software",
+          "imageLink": "https://www.w3villa.com/peatio-services",
+          "actionLink": "https://www.w3villa.com/peatio-services"
         }
       ]
     }
