@@ -22,7 +22,7 @@ public class RayCastTest : MonoBehaviour
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 10, Color.yellow);
         if (Physics.Raycast(transform.position, transform.forward, out hit, 10, _layerMask))
         {
-            // Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.red);
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.red);
             //Debug.Log("Hit object name " + hit.transform.name);
 
             if (hit.transform.CompareTag("Button"))
@@ -31,18 +31,16 @@ public class RayCastTest : MonoBehaviour
 
                 if (Input.GetMouseButtonUp(0))
                 {
-                    Debug.Log("OnCLick Dine ");
+                    Debug.Log("OnCLick Done ");
 
                     hit.collider.GetComponent<ActonBottonClass>().OnClickActionButon();
                     // ActionButtonLInk.OnClickActionButon();
                 }
-
             }
             else
             {
                 _hintsImage.color = Color.red;
             }
-
         }
     }
 }

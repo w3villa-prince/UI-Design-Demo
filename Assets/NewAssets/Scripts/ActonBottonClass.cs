@@ -1,22 +1,15 @@
 using TMPro;
 using UnityEngine;
 
-
-
 public class ActonBottonClass : MonoBehaviour
 {
     public string _link;
     public TextMeshProUGUI buttonText;
 
-
     // Start is called before the first frame update
     private void Start()
     {
-
-
     }
-
-
 
     // Update is called once per frame
     private void Update()
@@ -26,12 +19,10 @@ public class ActonBottonClass : MonoBehaviour
     public void OnClickActionButon()
     {
         Debug.Log("ClickActionButon");
-        Application.OpenURL(_link);
+        Application.OpenURL(buttonText.text);
     }
 
-
-
-    void OnLinkByURL()
+    private void OnLinkByURL()
     {
         Debug.Log("Get Link action");
 

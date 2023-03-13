@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CamerHolder : MonoBehaviour
 {
-    public Transform cameraPosition;
+    [SerializeField] private Transform cameraPosition;
 
     // Start is called before the first frame update
     private void Start()

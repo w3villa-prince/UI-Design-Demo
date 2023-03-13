@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class CameraRotate : MonoBehaviour
+public class PlayerCam : MonoBehaviour
 {
-    public float sens;
+    public float sensX;
+    public float sensY;
     public Transform orientation;
     private float xRotation;
     private float yRotation;
@@ -15,10 +16,11 @@ public class CameraRotate : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    private void LateUpdate()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sens;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sens;
+        float mouseX = Input.GetAxis("Mouse X") * sensX * Time.deltaTime;// take input in x
+        float mouseY = Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
+
         yRotation += mouseX;
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -45f, 45f);
