@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test.unity
-    guid: b8f670ed56e787e48a9fbe3fae912644
+    path: Assets/Scenes/W3villaDemoVR.unity
+    guid: 75c5d9fb419b0794188b8a1bc9f93782
   m_configObjects: {}
