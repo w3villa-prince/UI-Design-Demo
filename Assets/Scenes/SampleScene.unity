@@ -477,6 +477,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textJOSN: {fileID: 4900000, guid: 0876c56c6147bdb41857d800bed7fa8d, type: 3}
+  _3DHallposition: {x: 0, y: 0, z: 0}
+  _3dPosterStartingPostion: {x: -4, y: 0, z: 8}
+  first_3DPosterPosition: {x: 12, y: 0, z: 0}
+  second_3DPosterPosition: {x: -12, y: 0, z: 4}
+  _3DHallpositionUpdate: {x: 25, y: 0, z: 0}
   serivceList:
     services: []
 --- !u!4 &527567593

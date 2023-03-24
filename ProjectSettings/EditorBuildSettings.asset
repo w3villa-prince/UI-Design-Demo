@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/W3villaDemoVR.unity
+    path: Assets/Scenes/Bakeing.unity
     guid: 75c5d9fb419b0794188b8a1bc9f93782
   m_configObjects: {}
