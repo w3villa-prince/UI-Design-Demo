@@ -459,6 +459,7 @@ MonoBehaviour:
   Description: {fileID: 207469049887319490}
   PlayerImage: {fileID: 207469050017280060}
   texture: {fileID: 0}
+  ActionBtn: {fileID: 0}
 --- !u!1 &207469049024024021
 GameObject:
   m_ObjectHideFlags: 0

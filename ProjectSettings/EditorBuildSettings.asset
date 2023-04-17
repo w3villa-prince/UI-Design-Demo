@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Bakeing.unity
-    guid: 75c5d9fb419b0794188b8a1bc9f93782
+    path: Assets/Scenes/EnterScene.unity
+    guid: fd93cf7c4b8410e4796d4cad83d02aa5
+  - enabled: 1
+    path: Assets/CityVoxelPack/DemoScenes/Demo.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/W3VillaDemoVRWith_Bake.unity
+    guid: fd88cc8fe688fb44d9b0912612cd5718
   m_configObjects: {}

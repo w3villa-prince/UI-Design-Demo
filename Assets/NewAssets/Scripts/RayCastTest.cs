@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class RayCastTest : MonoBehaviour
@@ -35,6 +36,19 @@ public class RayCastTest : MonoBehaviour
 
                     hit.collider.GetComponent<ActonBottonClass>().OnClickActionButon();
                     // ActionButtonLInk.OnClickActionButon();
+                }
+            }
+            else if (hit.transform.CompareTag("W3villaBuilding"))
+            {
+                _hintsImage.color = Color.blue;
+            }
+            else if (hit.transform.CompareTag("W3villaOpenDoor"))
+            {
+                _hintsImage.color = Color.black;
+                if (Input.GetMouseButtonUp(0))
+                {
+                    Debug.Log("On click Door Enter  ");
+                    SceneManager.LoadScene("W3VillaDemoVRWith_Bake");
                 }
             }
             else

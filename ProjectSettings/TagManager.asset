@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Button
   - Poster
+  - W3villaBuilding
+  - W3villaOpenDoor
   layers:
   - Default
   - TransparentFX
